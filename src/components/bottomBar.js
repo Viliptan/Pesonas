@@ -43,7 +43,7 @@ function BottomBar() {
 					flexDirection="column"
 					justifyContent="space-around"
 					width="80%"
-					height="50%"
+					height="45%"
 				>
 					<Typography color="white">
 						Address: 8-1, Jalan Bandar Lima Belas, Pusat Bandar
@@ -59,7 +59,7 @@ function BottomBar() {
 					height="40%"
 					display="flex"
 					justifyContent="space-between"
-					alignItems="flex-start"
+					alignItems="center"
 				>
 					<img src={Facebook} alt="facebook" height={40} width={40} />
 					<img src={whatsapp} alt="whatsapp" height={40} width={40} />

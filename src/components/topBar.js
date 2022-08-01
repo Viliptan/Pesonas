@@ -51,13 +51,31 @@ function TopBar() {
 				justifyContent="space-evenly"
 				alignItems="center"
 			>
-				<Typography component={Link} to="/" color="white" variant="h6">
+				<Typography
+					component={Link}
+					to="/"
+					color="white"
+					variant="h6"
+					sx={{ textDecoration: "none" }}
+				>
 					Our Service
 				</Typography>
-				<Typography component={Link} to="/about-us" color="white" variant="h6">
+				<Typography
+					component={Link}
+					to="/about-us"
+					color="white"
+					variant="h6"
+					sx={{ textDecoration: "none" }}
+				>
 					About Us
 				</Typography>
-				<Typography component={Link} to="/contact-us" color="white" variant="h6">
+				<Typography
+					component={Link}
+					to="/contact-us"
+					color="white"
+					variant="h6"
+					sx={{ textDecoration: "none" }}
+				>
 					Contact Us
 				</Typography>
 			</Box>
